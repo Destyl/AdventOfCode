@@ -1,5 +1,4 @@
 import numpy as np
-from functools import reduce
 
 def solve(filename):
     with open(filename) as f:
@@ -40,5 +39,4 @@ def calc_grid(rolls_grid):
 
 if __name__ == "__main__":
     filename = "2025/Day4/input.txt"
-    # filename = "2025/Day4/test0.txt"
     solve(filename)
