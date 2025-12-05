@@ -1,0 +1,5 @@
+# ignore tests
+test*.*
+
+# pychache 
+__pycache__/
